@@ -41,6 +41,6 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_move_forward(){
 		PlanetExplorer.executeCommand("f");
-		assertEquals("",1,PlanetExplorer.y);
+		assertEquals("",1,PlanetExplorer.pos_y);
 	}
 }
