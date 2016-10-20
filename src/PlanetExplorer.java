@@ -86,6 +86,7 @@ public class PlanetExplorer {
 	}
 	
 	public String Obstacle_list(){
+		return Obs_located.toString();
 		
 	}
 	
