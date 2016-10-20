@@ -23,8 +23,41 @@ public class PlanetExplorer {
 		this.y=y;
 	}
 	
+	public void Moving(char command){
+		if(command=='r'){
+			if(orientation=="N")orientation="E";
+			if (orientation=="E")orientation = "S"; 
+			if(orientation=="S")orientation="W"; 
+			if(orientation=="W")orientation="N";
+		}
+		
+		if(command=='l'){
+			if(orientation=="N")orientation="W";
+			if (orientation=="E")orientation = "N"; 
+			if(orientation=="S")orientation="E"; 
+			if(orientation=="W")orientation="S"; 
+			
+		}
+		if(command=='f'){
+			if(orientation=="N")pos_y++;
+			if (orientation=="E")pos_x++;
+			if(orientation=="S")pos_y--; 
+			if(orientation=="W")pos_x--; 
+		}
+		
+		if(command=='b'){
+			if(orientation=="N")pos_y--;
+			if (orientation=="E")pos_x--;
+			if(orientation=="S")pos_y++;
+			if(orientation=="W")pos_x++; 
+			
+		}
+		
+	}
+	
+	
 	public String executeCommand(String command){
-
+		int i = 0;
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -34,38 +67,14 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		if(command=="r"){
-			if(orientation=="N"){orientation="E";return null;}
-			if (orientation=="E"){orientation = "S"; return null;}
-			if(orientation=="S"){orientation="W"; return null;}
-			if(orientation=="W"){orientation="N"; return null;}
-		}
-		
-		if(command=="l"){
-			if(orientation=="N"){orientation="W";return null;}
-			if (orientation=="E"){orientation = "N"; return null;}
-			if(orientation=="S"){orientation="E"; return null;}
-			if(orientation=="W"){orientation="S"; return null;}
-			
-		}
-		if(command=="f"){
-			if(orientation=="N"){pos_y++;return null;}
-			if (orientation=="E"){pos_x++; return null;}
-			if(orientation=="S"){pos_y--; return null;}
-			if(orientation=="W"){pos_x--; return null;}
-		}
-		
-		if(command=="b"){
-			if(orientation=="N"){pos_y--;return null;}
-			if (orientation=="E"){pos_x--; return null;}
-			if(orientation=="S"){pos_y++; return null;}
-			if(orientation=="W"){pos_x++; return null;}
-			
-		}
 		
 		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
+		else
+			for(i=0;i<command.length();i++)Moving(command.charAt(i));
+			
 		
-		return "("+this.pos_x+","+this.pos_y+","+orientation+")";
+		
+		return null;
 	}
 }
 

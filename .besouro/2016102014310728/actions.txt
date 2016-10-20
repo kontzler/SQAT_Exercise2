@@ -109,3 +109,16 @@ EditAction 1476965069546 TestPlanetExplorer.java 1084 8 13 7
 UnitTestCaseAction 1476965069808 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476965069808 TestPlanetExplorer.java FAIL
 EditAction 1476965104992 PlanetExplorer.java 2460 2 8 0
+UnitTestCaseAction 1476965105287 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965105287 TestPlanetExplorer.java FAIL
+RefactoringAction 1476965161749 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1476965162765 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1476965171776 TestPlanetExplorer.java RENAME test_=>void test_string FIELD
+RefactoringAction 1476965173788 TestPlanetExplorer.java RENAME test_string=>void test_stringmove() METHOD
+RefactoringAction 1476965235592 PlanetExplorer.java ADD void Mov FIELD
+RefactoringAction 1476965237105 PlanetExplorer.java RENAME Mov=>void Moving FIELD
+RefactoringAction 1476965238122 PlanetExplorer.java RENAME Moving=>void Moving() METHOD
+RefactoringAction 1476965243645 PlanetExplorer.java RENAME Moving()=>void Moving(String) METHOD
+FileOpenedAction 1476965396585 Spreadsheet.java 1952 6 24 0
+RefactoringAction 1476965526194 PlanetExplorer.java RENAME Moving(String)=>void Moving(char) METHOD
+EditAction 1476965704033 PlanetExplorer.java 2319 3 9 0
