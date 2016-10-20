@@ -68,7 +68,7 @@ public class PlanetExplorer {
 		if(pos_y==-1)pos_y=99;
 		//if(isOnObstacle()==true){
 			 //for(i=0;i<Obs_located.size();i++){
-				 if(Obs_located.get(i)==executeCommand("pos"))occ++;
+				// if(Obs_located.get(i)==executeCommand("pos"))occ++;
 			 //}
 			 //if(occ==0)Obs_located.add(executeCommand("pos"));
 		//}
