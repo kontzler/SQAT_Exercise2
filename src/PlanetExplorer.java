@@ -24,6 +24,8 @@ public class PlanetExplorer {
 	}
 	
 	public void Moving(char command){
+	
+		
 		if(command=='r'){
 			if(orientation=="N")orientation="E";
 			else if (orientation=="E")orientation = "S"; 
@@ -52,6 +54,11 @@ public class PlanetExplorer {
 			if(orientation=="W")pos_x++; 
 			
 		}
+		
+		if (pos_x==100)pos_x=1;
+		if(pos_x==-1)pos_x=99;
+		if(pos_y==100)pos_y=1;
+		if(pos_y==-1)pos_y=99;
 		
 	}
 	
