@@ -25,17 +25,17 @@ public class PlanetExplorer {
 	
 	public void Moving(char command){
 		if(command=='r'){
-			if(orientation=="N")this.orientation="E";
-			if (orientation=="E")this.orientation = "S"; 
-			if(orientation=="S")this.orientation="W"; 
-			if(orientation=="W")this.orientation="N";
+			if(orientation=="N")orientation="E";
+			else if (orientation=="E")orientation = "S"; 
+			else if(orientation=="S")orientation="W"; 
+			else if(orientation=="W")orientation="N";
 		}
 		
 		if(command=='l'){
-			if(orientation=="N")this.orientation="W";
-			if (orientation=="E")this.orientation = "N"; 
-			if(orientation=="S")this.orientation="E"; 
-			if(orientation=="W")this.orientation="S"; 
+			if(orientation=="N")orientation="W";
+			if (orientation=="E")orientation = "N"; 
+			if(orientation=="S")orientation="E"; 
+			if(orientation=="W")orientation="S"; 
 			
 		}
 		if(command=='f'){
