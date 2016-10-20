@@ -74,16 +74,16 @@ public class PlanetExplorer {
 		//}
 	}
 	
-	public boolean isOnObstacle(){
-		int i=0;
-		String[] Obstacles = obstacle.split(")");
-		for(i=0;i<Obstacles.length;i++){
-			if(Obstacles[i]==executeCommand("pos"))return true;
-		}
+	//public boolean isOnObstacle(){
+		//int i=0;
+		//String[] Obstacles = obstacle.split(")");
+		//for(i=0;i<Obstacles.length;i++){
+		//	if(Obstacles[i]==executeCommand("pos"))return true;
+		//}
 		
 		
-		return false;
-	}
+		//return false;
+	//}
 	
 	
 	public String executeCommand(String command){

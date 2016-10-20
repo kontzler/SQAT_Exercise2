@@ -190,3 +190,8 @@ EditAction 1476968522547 PlanetExplorer.java 3196 4 22 0
 UnitTestCaseAction 1476968523030 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476968523030 TestPlanetExplorer.java FAIL
 EditAction 1476968536970 PlanetExplorer.java 3206 4 22 0
+UnitTestCaseAction 1476968537457 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476968537457 TestPlanetExplorer.java FAIL
+RefactoringAction 1476968564063 PlanetExplorer.java RENAME isOnObstacle()=>int i FIELD
+RefactoringAction 1476968569601 PlanetExplorer.java REMOVE executeCommand() METHOD
+EditAction 1476968572794 PlanetExplorer.java 3222 3 18 0
