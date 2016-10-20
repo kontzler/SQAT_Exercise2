@@ -108,7 +108,7 @@ public class PlanetExplorer {
 					else Moving('f');
 				}
 					
-				Moving(command.charAt(i));
+				else Moving(command.charAt(i));
 			}
 			
 		
