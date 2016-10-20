@@ -76,7 +76,7 @@ public class PlanetExplorer {
 	
 	public boolean isOnObstacle(){
 		int i=0;
-		String[] Obstacles = this.obstacle.split(")("); //I had an unmatched closing errors when trying to use .split(")") so I try to use a space to split the different obstacle
+		String[] Obstacles = this.obstacle.split(")"); //I had an unmatched closing errors when trying to use .split(")") so I try to use a space to split the different obstacle
 		for(i=0;i<Obstacles.length;i++){
 			if(Obstacles[i]==executeCommand("pos"))return true; //for an unknown reason this does not work properly, and I have no idea on how to fix it
 		}
