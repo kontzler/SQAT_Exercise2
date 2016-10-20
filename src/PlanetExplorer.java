@@ -70,7 +70,7 @@ public class PlanetExplorer {
 			// for(i=0;i<Obs_located.size();i++){
 				// if(Obs_located.get(i)==executeCommand("pos"))occ++;
 			 //}
-			 if(occ==0)Obs_located.add(executeCommand("pos"));
+			// if(occ==0)Obs_located.add(executeCommand("pos"));
 		}
 	}
 	
