@@ -35,17 +35,14 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if(command=="r"){
-			if(orientation=="N")orientation="E";
-			else {
-				if (orientation=="E")orientation = "S";
-				else 
-					if(orientation=="S")orientation="W";
-					else
-						if(orientation=="W")orientation="N";
+			if(orientation=="N")orientation="E";return null;
+			if (orientation=="E")orientation = "S"; return null;
+			if(orientation=="S")orientation="W"; return null;
+			if(orientation=="W")orientation="N"; return null;
 	
-	
+		
 		}
-		//if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
+		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
 		
 		return "("+this.pos_x+","+this.pos_y+","+orientation+")";
 	}
