@@ -25,4 +25,10 @@ public class TestPlanetExplorer {
 	public void test_get_position(){
 		assertEquals("","(0,0,N)",PlanetExplorer.executeCommand(""));
 	}
+	
+	@Test
+	public void test_turn_right(){
+		PlanetExplorer.executeCommand("r");
+		assertEquals("","E",PlanetExplorer.orientation);
+	}
 }
