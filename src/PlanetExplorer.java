@@ -86,7 +86,8 @@ public class PlanetExplorer {
 	}
 	
 	public String Obstacle_list(){
-		return Obs_located.toString();
+		if (Obs_located!=null)return Obs_located.toString();
+		else return null;
 		
 	}
 	
