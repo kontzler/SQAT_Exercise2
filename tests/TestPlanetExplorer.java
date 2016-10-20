@@ -69,4 +69,10 @@ public class TestPlanetExplorer {
 		assertEquals("",99,PlanetExplorer.pos_x);
 	}
 	
+	@Test
+	public void test_obstacle(){
+		PlanetExplorer PlanetExplorer= new PlanetExplorer(100,100,"(1,0)");
+		assertEquals("","(1,0)",PlanetExplorer.obstacle);
+	}
+	
 }

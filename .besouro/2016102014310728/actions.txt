@@ -158,3 +158,4 @@ RefactoringAction 1476966338181 TestPlanetExplorer.java RENAME test_obstacle=>vo
 RefactoringAction 1476966431189 PlanetExplorer.java ADD publis String FIELD
 RefactoringAction 1476966438720 PlanetExplorer.java RENAME String=>String obstacle FIELD
 EditAction 1476966456182 PlanetExplorer.java 2510 3 14 0
+EditAction 1476966456299 TestPlanetExplorer.java 1645 12 21 11
