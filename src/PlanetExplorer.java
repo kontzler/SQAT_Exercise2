@@ -33,9 +33,9 @@ public class PlanetExplorer {
 		
 		if(command=='l'){
 			if(orientation=="N")orientation="W";
-			if (orientation=="E")orientation = "N"; 
-			if(orientation=="S")orientation="E"; 
-			if(orientation=="W")orientation="S"; 
+			else if (orientation=="E")orientation = "N"; 
+			else if(orientation=="S")orientation="E"; 
+			else if(orientation=="W")orientation="S"; 
 			
 		}
 		if(command=='f'){
