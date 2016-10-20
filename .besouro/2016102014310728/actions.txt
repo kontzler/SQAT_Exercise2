@@ -51,3 +51,9 @@ UnitTestCaseAction 1476963828564 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476963828565 TestPlanetExplorer.java FAIL
 RefactoringAction 1476964018317 PlanetExplorer.java ADD String orientation FIELD
 EditAction 1476964027020 PlanetExplorer.java 1430 2 4 0
+UnitTestCaseAction 1476964027328 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964027328 TestPlanetExplorer.java FAIL
+RefactoringAction 1476964070897 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1476964072411 PlanetExplorer.java RENAME pos=>int pos_x FIELD
+RefactoringAction 1476964092988 PlanetExplorer.java ADD int pos_y FIELD
+EditAction 1476964100314 PlanetExplorer.java 1484 2 4 0

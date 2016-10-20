@@ -7,6 +7,8 @@ public class PlanetExplorer {
 	public int x;
 	public int y;
 	public String orientation = "N";
+	public int pos_x = 0;
+	public int pos_y = 0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -33,7 +35,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command=="")return "("+this.x+","+this.y+","+orientation+")";
+		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
 		
 		return null;
 	}
