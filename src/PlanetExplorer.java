@@ -1,3 +1,4 @@
+import java.util.List;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -10,6 +11,8 @@ public class PlanetExplorer {
 	public int pos_x = 0;
 	public int pos_y = 0;
 	public String obstacle;
+	public List<String> Obs_located;
+	
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -26,7 +29,8 @@ public class PlanetExplorer {
 	}
 	
 	public void Moving(char command){
-	
+		int i =0;
+		int occ =0;
 		
 		if(command=='r'){
 			if(orientation=="N")orientation="E";
@@ -47,6 +51,7 @@ public class PlanetExplorer {
 			if (orientation=="E")pos_x++;
 			if(orientation=="S")pos_y--; 
 			if(orientation=="W")pos_x--; 
+			
 		}
 		
 		if(command=='b'){
@@ -61,7 +66,23 @@ public class PlanetExplorer {
 		if(pos_x==-1)pos_x=99;
 		if(pos_y==100)pos_y=1;
 		if(pos_y==-1)pos_y=99;
+		if(isOnObstacle()==true){
+			 for(i=0;i<Obs_located.size();i++){
+				 if(Obs_located.get(i)==executeCommand("pos"))occ++;
+			 }
+			 if(occ==0)Obs_located.add(executeCommand("pos"));
+		}
+	}
+	
+	public boolean isOnObstacle(){
+		int i=0;
+		String[] Obstacles = obstacle.split(")");
+		for(i=0;i<Obstacles.length;i++){
+			if(Obstacles[i]==executeCommand("pos"))return true;
+		}
 		
+		
+		return false;
 	}
 	
 	
@@ -78,8 +99,17 @@ public class PlanetExplorer {
 		 */
 		
 		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
+		if(command=="pos")return "("+this.pos_x+","+this.pos_y+")";
 		else
-			for(i=0;i<command.length();i++)Moving(command.charAt(i));
+			for(i=0;i<command.length();i++){
+				if (isOnObstacle()==true&&i!=0){
+					
+					if(command.charAt(i-1)=='f')Moving('b');
+					else Moving('f');
+				}
+					
+				Moving(command.charAt(i));
+			}
 			
 		
 		

@@ -159,3 +159,21 @@ RefactoringAction 1476966431189 PlanetExplorer.java ADD publis String FIELD
 RefactoringAction 1476966438720 PlanetExplorer.java RENAME String=>String obstacle FIELD
 EditAction 1476966456182 PlanetExplorer.java 2510 3 14 0
 EditAction 1476966456299 TestPlanetExplorer.java 1645 12 21 11
+UnitTestCaseAction 1476966456567 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966456568 TestPlanetExplorer.java FAIL
+RefactoringAction 1476966605039 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476966609050 TestPlanetExplorer.java RENAME test_=>void test_locating_ob FIELD
+RefactoringAction 1476966610561 TestPlanetExplorer.java RENAME test_locating_ob=>void test_locating_obtac FIELD
+RefactoringAction 1476966611574 TestPlanetExplorer.java RENAME test_locating_obtac=>void test_locating_obtacle FIELD
+RefactoringAction 1476966613584 TestPlanetExplorer.java RENAME test_locating_obtacle=>void test_locating_obtacle() METHOD
+RefactoringAction 1476966616095 TestPlanetExplorer.java RENAME test_locating_obtacle()=>void test_locating_obstacle() METHOD
+RefactoringAction 1476966798875 PlanetExplorer.java ADD boolean is FIELD
+RefactoringAction 1476966805387 PlanetExplorer.java RENAME is=>boolean isOnObstacle() METHOD
+RefactoringAction 1476966871859 PlanetExplorer.java ADD import java.util.List IMPORT
+RefactoringAction 1476967287849 PlanetExplorer.java ADD String obstacles_encountered FIELD
+RefactoringAction 1476967291863 PlanetExplorer.java REMOVE obstacles_encountered FIELD
+RefactoringAction 1476967929082 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1476967931596 PlanetExplorer.java REMOVE encou FIELD
+RefactoringAction 1476967939624 PlanetExplorer.java ADD String FIELD
+RefactoringAction 1476968046486 PlanetExplorer.java ADD import java.util.List IMPORT
+EditAction 1476968219946 PlanetExplorer.java 3187 4 22 0
