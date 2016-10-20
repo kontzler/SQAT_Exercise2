@@ -104,9 +104,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
-		if(command=="report")return "("+String.valueOf(pos_x)+","+this.pos_y+","+orientation+")"+Obstacle_list();
-		if(command=="pos")return "("+this.pos_x+","+this.pos_y+")";
+		if(command=="")return "("+String.valueOf(pos_x)+","+String.valueOf(pos_y)+","+orientation+")";
+		if(command=="report")return "("+String.valueOf(pos_x)+","+String.valueOf(pos_y)+","+orientation+")"+Obstacle_list();
+		if(command=="pos")return "("+String.valueOf(pos_x)+","+String.valueOf(pos_y)+")";
 		else
 			for(i=0;i<command.length();i++){
 				if (isOnObstacle()==true&&i!=0){
