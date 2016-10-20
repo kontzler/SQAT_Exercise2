@@ -47,3 +47,7 @@ RefactoringAction 1476963696651 TestPlanetExplorer.java RENAME test_get_position
 RefactoringAction 1476963710711 TestPlanetExplorer.java ADD PlanetExplorer PlanetExplorer FIELD
 EditAction 1476963828178 PlanetExplorer.java 1333 2 3 0
 EditAction 1476963828292 TestPlanetExplorer.java 526 4 4 3
+UnitTestCaseAction 1476963828564 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963828565 TestPlanetExplorer.java FAIL
+RefactoringAction 1476964018317 PlanetExplorer.java ADD String orientation FIELD
+EditAction 1476964027020 PlanetExplorer.java 1430 2 4 0
