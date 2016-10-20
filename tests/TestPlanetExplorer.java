@@ -31,4 +31,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer.executeCommand("r");
 		assertEquals("","E",PlanetExplorer.orientation);
 	}
+	
+	@Test
+	public void test_turn_left(){
+		PlanetExplorer.executeCommand("l");
+		assertEquals("","W",PlanetExplorer.orientation);
+	}
 }
