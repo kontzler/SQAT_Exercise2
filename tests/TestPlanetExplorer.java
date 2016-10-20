@@ -50,4 +50,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer.executeCommand("b");
 		assertEquals("",0,PlanetExplorer.pos_y);
 	}
+	
+	@Test
+	public void test_stringmove(){
+		PlanetExplorer.executeCommand("ffrff");
+		assertEquals("","(2,2,E)",PlanetExplorer.executeCommand(""));
+	}
 }
