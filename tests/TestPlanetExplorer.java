@@ -14,4 +14,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer PlanetExplorer = new PlanetExplorer(100,100,"");
 		assertEquals("",100,PlanetExplorer.x);
 	}
+	
+	@Test
+	public void test_new_planet_y(){
+		PlanetExplorer PlanetExplorer = new PlanetExplorer(100,100,"");
+		assertEquals("",100,PlanetExplorer.y);
+	}
 }

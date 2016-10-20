@@ -21,3 +21,11 @@ EditAction 1476963553171 PlanetExplorer.java 1300 2 2 0
 UnitTestCaseAction 1476963553463 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476963553464 TestPlanetExplorer.java FAIL
 EditAction 1476963572637 PlanetExplorer.java 1300 2 2 0
+UnitTestCaseAction 1476963572911 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963572912 TestPlanetExplorer.java FAIL
+RefactoringAction 1476963584846 TestPlanetExplorer.java ADD void test_new_p FIELD
+RefactoringAction 1476963587364 TestPlanetExplorer.java RENAME test_new_p=>void test_new_planet FIELD
+RefactoringAction 1476963588886 TestPlanetExplorer.java RENAME test_new_planet=>void test_new_planet_ FIELD
+RefactoringAction 1476963589901 TestPlanetExplorer.java RENAME test_new_planet_=>void test_new_planet_y FIELD
+RefactoringAction 1476963590917 TestPlanetExplorer.java RENAME test_new_planet_y=>void test_new_planet_y() METHOD
+EditAction 1476963605759 TestPlanetExplorer.java 480 3 5 2
