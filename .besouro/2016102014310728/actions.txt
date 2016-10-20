@@ -29,3 +29,7 @@ RefactoringAction 1476963588886 TestPlanetExplorer.java RENAME test_new_planet=>
 RefactoringAction 1476963589901 TestPlanetExplorer.java RENAME test_new_planet_=>void test_new_planet_y FIELD
 RefactoringAction 1476963590917 TestPlanetExplorer.java RENAME test_new_planet_y=>void test_new_planet_y() METHOD
 EditAction 1476963605759 TestPlanetExplorer.java 480 3 5 2
+CompilationAction 1476963605833 TestPlanetExplorer.java
+UnitTestCaseAction 1476963606855 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963606856 TestPlanetExplorer.java FAIL
+EditAction 1476963619433 PlanetExplorer.java 1312 2 3 0
