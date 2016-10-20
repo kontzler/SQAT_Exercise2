@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	public String orientation = "N";
 	public int pos_x = 0;
 	public int pos_y = 0;
+	public String obstacle;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -21,6 +22,7 @@ public class PlanetExplorer {
 	
 		this.x=x;
 		this.y=y;
+		this.obstacle=obstacles;
 	}
 	
 	public void Moving(char command){

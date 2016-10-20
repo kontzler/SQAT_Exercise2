@@ -149,3 +149,12 @@ RefactoringAction 1476966205890 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1476966209398 TestPlanetExplorer.java RENAME test_x=>void test_x_loop FIELD
 RefactoringAction 1476966210401 TestPlanetExplorer.java RENAME test_x_loop=>void test_x_loop() METHOD
 EditAction 1476966256117 TestPlanetExplorer.java 1481 11 19 10
+UnitTestCaseAction 1476966256384 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966256385 TestPlanetExplorer.java FAIL
+RefactoringAction 1476966333649 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476966335159 TestPlanetExplorer.java RENAME test_=>void test_obs FIELD
+RefactoringAction 1476966337172 TestPlanetExplorer.java RENAME test_obs=>void test_obstacle FIELD
+RefactoringAction 1476966338181 TestPlanetExplorer.java RENAME test_obstacle=>void test_obstacle() METHOD
+RefactoringAction 1476966431189 PlanetExplorer.java ADD publis String FIELD
+RefactoringAction 1476966438720 PlanetExplorer.java RENAME String=>String obstacle FIELD
+EditAction 1476966456182 PlanetExplorer.java 2510 3 14 0
