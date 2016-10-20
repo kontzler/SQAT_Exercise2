@@ -1,0 +1,9 @@
+FileOpenedAction 1476963067243 PlanetExplorer.java 1270 2 1 0
+RefactoringAction 1476963350959 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1476963351979 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1476963353503 TestPlanetExplorer.java RENAME test_=>void test_ne FIELD
+RefactoringAction 1476963356024 TestPlanetExplorer.java RENAME test_ne=>void test_new_plqnet FIELD
+RefactoringAction 1476963358546 TestPlanetExplorer.java RENAME test_new_plqnet=>void test_new_planet FIELD
+RefactoringAction 1476963359563 TestPlanetExplorer.java RENAME test_new_planet=>void test_new_planet() METHOD
+RefactoringAction 1476963472190 TestPlanetExplorer.java RENAME test_new_planet()=>void test_new_planet_x() METHOD
+EditAction 1476963476486 TestPlanetExplorer.java 327 2 3 1
