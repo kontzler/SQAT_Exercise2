@@ -273,3 +273,4 @@ UnitTestCaseAction 1476970077553 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476970077553 TestPlanetExplorer.java FAIL
 RefactoringAction 1476970315242 TestPlanetExplorer.java REMOVE test_executeCommand() METHOD
 EditAction 1476970317017 PlanetExplorer.java 3681 5 24 0
+EditAction 1476970317149 TestPlanetExplorer.java 1902 13 25 13

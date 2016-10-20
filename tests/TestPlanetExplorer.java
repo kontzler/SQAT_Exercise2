@@ -6,10 +6,7 @@ public class TestPlanetExplorer {
 	PlanetExplorer PlanetExplorer = new PlanetExplorer(100,100,"(2,2) (2,1)");
 	
 	
-	@Test
-	public void test_executeCommand() {
-		fail("Not yet implemented");
-	}
+
 	
 	@Test
 	public void test_new_planet_x(){
