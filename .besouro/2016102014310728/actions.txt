@@ -33,3 +33,16 @@ CompilationAction 1476963605833 TestPlanetExplorer.java
 UnitTestCaseAction 1476963606855 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476963606856 TestPlanetExplorer.java FAIL
 EditAction 1476963619433 PlanetExplorer.java 1312 2 3 0
+CompilationAction 1476963619522 PlanetExplorer.java
+UnitTestCaseAction 1476963620991 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963620991 TestPlanetExplorer.java FAIL
+RefactoringAction 1476963630091 PlanetExplorer.java ADD int y FIELD
+CompilationAction 1476963633365 PlanetExplorer.java
+UnitTestCaseAction 1476963633597 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963633598 TestPlanetExplorer.java FAIL
+RefactoringAction 1476963689102 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476963693620 TestPlanetExplorer.java RENAME test_=>void test_get_ FIELD
+RefactoringAction 1476963695635 TestPlanetExplorer.java RENAME test_get_=>void test_get_position FIELD
+RefactoringAction 1476963696651 TestPlanetExplorer.java RENAME test_get_position=>void test_get_position() METHOD
+RefactoringAction 1476963710711 TestPlanetExplorer.java ADD PlanetExplorer PlanetExplorer FIELD
+EditAction 1476963828178 PlanetExplorer.java 1333 2 3 0
