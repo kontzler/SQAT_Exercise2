@@ -7,3 +7,10 @@ RefactoringAction 1476963358546 TestPlanetExplorer.java RENAME test_new_plqnet=>
 RefactoringAction 1476963359563 TestPlanetExplorer.java RENAME test_new_planet=>void test_new_planet() METHOD
 RefactoringAction 1476963472190 TestPlanetExplorer.java RENAME test_new_planet()=>void test_new_planet_x() METHOD
 EditAction 1476963476486 TestPlanetExplorer.java 327 2 3 1
+CompilationAction 1476963476630 TestPlanetExplorer.java
+UnitTestCaseAction 1476963479173 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963479174 TestPlanetExplorer.java FAIL
+RefactoringAction 1476963513198 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1476963516887 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1476963525433 PlanetExplorer.java ADD int x FIELD
+EditAction 1476963532316 PlanetExplorer.java 1301 2 2 0
