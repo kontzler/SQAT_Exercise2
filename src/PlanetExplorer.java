@@ -102,13 +102,13 @@ public class PlanetExplorer {
 		if(command=="pos")return "("+this.pos_x+","+this.pos_y+")";
 		else
 			for(i=0;i<command.length();i++){
-				if (isOnObstacle()==true&&i!=0){
+				//if (isOnObstacle()==true&&i!=0){
 					
-					if(command.charAt(i-1)=='f')Moving('b');
-					else Moving('f');
-				}
+					//if(command.charAt(i-1)=='f')Moving('b');
+					//else Moving('f');
+				//}
 					
-				else Moving(command.charAt(i));
+				 Moving(command.charAt(i));
 			}
 			
 		
