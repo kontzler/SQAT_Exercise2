@@ -94,3 +94,4 @@ RefactoringAction 1476964795967 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1476964799479 TestPlanetExplorer.java RENAME test_move_=>void test_move_for FIELD
 RefactoringAction 1476964801492 TestPlanetExplorer.java RENAME test_move_for=>void test_move_forward() METHOD
 EditAction 1476964972967 PlanetExplorer.java 2241 2 7 0
+EditAction 1476964973089 TestPlanetExplorer.java 914 7 10 6

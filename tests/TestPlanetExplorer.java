@@ -37,4 +37,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer.executeCommand("l");
 		assertEquals("","W",PlanetExplorer.orientation);
 	}
+	
+	@Test
+	public void test_move_forward(){
+		PlanetExplorer.executeCommand("f");
+		assertEquals("",1,PlanetExplorer.y);
+	}
 }
