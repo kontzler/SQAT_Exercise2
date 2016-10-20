@@ -77,7 +77,7 @@ public class PlanetExplorer {
 	public boolean isOnObstacle(){
 		int i=0;
 		String[] Obstacles = this.obstacle.split(" ");
-		System.out.println(Obstacles[0]);
+		if(Obstacles[0]==executeCommand("pos"))return true;
 		for(i=0;i<Obstacles.length;i++){
 			if(Obstacles[i]==executeCommand("pos"))return true;
 		}
