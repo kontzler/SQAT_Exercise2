@@ -67,10 +67,10 @@ public class PlanetExplorer {
 		if(pos_y==100)pos_y=1;
 		if(pos_y==-1)pos_y=99;
 		if(isOnObstacle()==true){
-			// for(i=0;i<Obs_located.size();i++){
-				// if(Obs_located.get(i)==executeCommand("pos"))occ++;
-			 //}
-			// if(occ==0)Obs_located.add(executeCommand("pos"));
+			 for(i=0;i<Obs_located.size();i++){
+				 if(Obs_located.get(i)==executeCommand("pos"))occ++;
+			 }
+			 if(occ==0)Obs_located.add(executeCommand("pos"));
 		}
 	}
 	
@@ -85,6 +85,9 @@ public class PlanetExplorer {
 		return false;
 	}
 	
+	public String Obstacle_list(){
+		
+	}
 	
 	public String executeCommand(String command){
 		int i = 0;
@@ -98,15 +101,15 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
+		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")"+Obstacle_list();
 		if(command=="pos")return "("+this.pos_x+","+this.pos_y+")";
 		else
 			for(i=0;i<command.length();i++){
-				//if (isOnObstacle()==true&&i!=0){
+				if (isOnObstacle()==true&&i!=0){
 					
-					//if(command.charAt(i-1)=='f')Moving('b');
-					//else Moving('f');
-				//}
+					if(command.charAt(i-1)=='f')Moving('b');
+					else Moving('f');
+				}
 					
 				 Moving(command.charAt(i));
 			}

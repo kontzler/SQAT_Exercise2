@@ -226,3 +226,11 @@ EditAction 1476969072658 PlanetExplorer.java 3204 4 22 0
 UnitTestCaseAction 1476969073121 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476969073122 TestPlanetExplorer.java FAIL
 EditAction 1476969094235 PlanetExplorer.java 3204 4 22 0
+UnitTestCaseAction 1476969094670 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969094670 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969141947 PlanetExplorer.java ADD String Obst FIELD
+RefactoringAction 1476969142962 PlanetExplorer.java RENAME Obst=>String Obstac FIELD
+RefactoringAction 1476969143977 PlanetExplorer.java RENAME Obstac=>String Obstacle FIELD
+RefactoringAction 1476969145991 PlanetExplorer.java RENAME Obstacle=>String Obstacle_list FIELD
+RefactoringAction 1476969148506 PlanetExplorer.java RENAME Obstacle_list=>String Obstacle_list() METHOD
+EditAction 1476969159331 PlanetExplorer.java 3242 5 22 0
