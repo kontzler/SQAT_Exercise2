@@ -45,9 +45,9 @@ public class PlanetExplorer {
 	
 	
 		}
-		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
+		//if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
 		
-		return null;
+		return "("+this.pos_x+","+this.pos_y+","+orientation+")";
 	}
 }
 }
