@@ -178,3 +178,6 @@ RefactoringAction 1476967939624 PlanetExplorer.java ADD String FIELD
 RefactoringAction 1476968046486 PlanetExplorer.java ADD import java.util.List IMPORT
 EditAction 1476968219946 PlanetExplorer.java 3187 4 22 0
 EditAction 1476968220086 TestPlanetExplorer.java 1882 13 24 12
+UnitTestCaseAction 1476968221296 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476968221296 TestPlanetExplorer.java FAIL
+EditAction 1476968308054 TestPlanetExplorer.java 1887 13 24 12

@@ -3,7 +3,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestPlanetExplorer {
-	PlanetExplorer PlanetExplorer = new PlanetExplorer(100,100,"");
+	PlanetExplorer PlanetExplorer = new PlanetExplorer(100,100,"(2,2)");
 	
 	
 	@Test
