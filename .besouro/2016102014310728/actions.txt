@@ -123,3 +123,6 @@ FileOpenedAction 1476965396585 Spreadsheet.java 1952 6 24 0
 RefactoringAction 1476965526194 PlanetExplorer.java RENAME Moving(String)=>void Moving(char) METHOD
 EditAction 1476965704033 PlanetExplorer.java 2319 3 9 0
 EditAction 1476965704161 TestPlanetExplorer.java 1234 9 15 8
+UnitTestCaseAction 1476965704440 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965704440 TestPlanetExplorer.java FAIL
+EditAction 1476965822668 PlanetExplorer.java 2359 3 9 0
