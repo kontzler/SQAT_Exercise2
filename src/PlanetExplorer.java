@@ -105,7 +105,7 @@ public class PlanetExplorer {
 		 */
 		
 		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
-		if(command=="report")return "("+this.pos_x+","+this.pos_y+","+orientation+")"+Obstacle_list();
+		if(command=="report")return "("+String.valueOf(pos_x)+","+this.pos_y+","+orientation+")"+Obstacle_list();
 		if(command=="pos")return "("+this.pos_x+","+this.pos_y+")";
 		else
 			for(i=0;i<command.length();i++){
