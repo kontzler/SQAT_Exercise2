@@ -15,7 +15,7 @@ public class PlanetExplorer {
 		 
 	 */
 	
-		x=this.x;
+		this.x=x;
 	}
 	
 	public String executeCommand(String command){
