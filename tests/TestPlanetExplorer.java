@@ -77,9 +77,16 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_locating_obstacle(){
-		PlanetExplorer PlanetExplorer= new PlanetExplorer(100,100,"(2,2)");
 		PlanetExplorer.executeCommand("ffrff");
 		assertEquals("","(1,2,E)(2,2)",PlanetExplorer.executeCommand("report"));
+	}
+	
+	@Test
+	public void test_on_obstacle(){
+		PlanetExplorer.pos_x=2;
+		PlanetExplorer.pos_y=2;
+		assertEquals("",true,PlanetExplorer.isOnObstacle());
+		
 	}
 	
 }

@@ -246,3 +246,8 @@ UnitTestCaseAction 1476969325884 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476969325885 TestPlanetExplorer.java FAIL
 EditAction 1476969373160 PlanetExplorer.java 3398 5 24 0
 EditAction 1476969373285 TestPlanetExplorer.java 1888 13 24 12
+UnitTestCaseAction 1476969373563 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969373563 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969463312 TestPlanetExplorer.java ADD void test_on_obstacle FIELD
+RefactoringAction 1476969464323 TestPlanetExplorer.java RENAME test_on_obstacle=>void test_on_obstacle() METHOD
+EditAction 1476969521331 TestPlanetExplorer.java 1973 14 26 13
