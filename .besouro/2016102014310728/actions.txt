@@ -141,3 +141,11 @@ RefactoringAction 1476966130144 TestPlanetExplorer.java ADD void test_ FIELD
 RefactoringAction 1476966133155 TestPlanetExplorer.java RENAME test_=>void test_backward FIELD
 RefactoringAction 1476966136168 TestPlanetExplorer.java RENAME test_backward=>void test_backward_loop() METHOD
 EditAction 1476966176886 TestPlanetExplorer.java 1365 10 17 9
+UnitTestCaseAction 1476966177178 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966177178 TestPlanetExplorer.java FAIL
+RefactoringAction 1476966193863 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476966202880 TestPlanetExplorer.java RENAME test_backward_loop()=>void test_y_loop() METHOD
+RefactoringAction 1476966205890 TestPlanetExplorer.java RENAME test_=>void test_x FIELD
+RefactoringAction 1476966209398 TestPlanetExplorer.java RENAME test_x=>void test_x_loop FIELD
+RefactoringAction 1476966210401 TestPlanetExplorer.java RENAME test_x_loop=>void test_x_loop() METHOD
+EditAction 1476966256117 TestPlanetExplorer.java 1481 11 19 10
