@@ -56,4 +56,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer.executeCommand("ffrff");
 		assertEquals("","(2,2,E)",PlanetExplorer.executeCommand(""));
 	}
+	
+	@Test
+	public void test_backward_loop(){
+		PlanetExplorer.executeCommand("b");
+		assertEquals("",99,PlanetExplorer.pos_y);
+	}
+	
 }
