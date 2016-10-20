@@ -86,3 +86,11 @@ RefactoringAction 1476964659624 TestPlanetExplorer.java RENAME test_turn=>void t
 RefactoringAction 1476964661137 TestPlanetExplorer.java RENAME test_turn_left=>void test_turn_left() METHOD
 EditAction 1476964743375 PlanetExplorer.java 2029 2 6 0
 EditAction 1476964743509 TestPlanetExplorer.java 791 6 8 5
+UnitTestCaseAction 1476964743768 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964743769 TestPlanetExplorer.java FAIL
+RefactoringAction 1476964790442 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1476964791453 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1476964795967 TestPlanetExplorer.java RENAME test_=>void test_move_ FIELD
+RefactoringAction 1476964799479 TestPlanetExplorer.java RENAME test_move_=>void test_move_for FIELD
+RefactoringAction 1476964801492 TestPlanetExplorer.java RENAME test_move_for=>void test_move_forward() METHOD
+EditAction 1476964972967 PlanetExplorer.java 2241 2 7 0

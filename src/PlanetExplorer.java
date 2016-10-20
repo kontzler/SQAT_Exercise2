@@ -48,6 +48,12 @@ public class PlanetExplorer {
 			if(orientation=="W"){orientation="S"; return null;}
 			
 		}
+		if(command=="f"){
+			if(orientation=="N"){pos_y++;return null;}
+			if (orientation=="E"){pos_x++; return null;}
+			if(orientation=="S"){pos_y--; return null;}
+			if(orientation=="W"){pos_x--; return null;}
+		}
 		
 		if(command=="")return "("+this.pos_x+","+this.pos_y+","+orientation+")";
 		
